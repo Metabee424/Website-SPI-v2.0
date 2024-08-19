@@ -1,0 +1,95 @@
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    color: #092552;
+    
+}
+
+.titulo-form {
+    width: 100%;
+    font-size: 30px;
+}
+
+.container-formulario .form {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 40px;
+    flex-wrap: nowrap; /* ---------------- */
+    line-height: 34px;
+    border-radius: 20px;
+    border: 4px solid #ea4235;
+}
+
+.form .formulario {
+    width: 60%;
+}
+.form .contenedor-inputs {
+    width: 100%;
+}
+
+.container-formulario .form .contenedor-inputs input[type="name"],
+.container-formulario .form .contenedor-inputs input[type="email"],
+.container-formulario .form .contenedor-inputs textarea {
+    width: 95%;
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: #a4a4a4;
+    border-radius: 20px;
+}
+
+.contenedor-inputs input[type="name"]:focus,
+.contenedor-inputs input[type="email"]:focus,
+.contenedor-inputs textarea:focus {
+    border: 2px solid #3895ea;
+}
+
+.contenedor-inputs textarea {
+    height: 200px;
+    resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form .contenedor-inputs .cta-button {
+    display: flex;
+    width: 140px;
+    text-decoration: none;
+    background-color: #ea4235;
+    border-radius: 20px;
+    color: #fff;
+    justify-content: center;
+    margin-top: 20px;
+    border: 2px solid #ea4235;
+    padding: 10px;
+    
+}
+
+.form .contenedor-inputs .cta-button:hover {
+    background-color: #fff;
+    color: #ea4235;
+}

@@ -1,0 +1,319 @@
+@media screen and (max-width: 1350px) {
+    .slogan p {
+        font-size: 85px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .slogan p {
+        font-size: 75px;
+    }
+
+    .servicios h2 {
+        font-size: 40px;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 35px;
+    }
+
+    .solucion .solucion-info p {
+        font-size: 30px;
+    }
+
+    .acercade h2 {
+        font-size: 40px;
+    }
+    
+    .acercade p {
+        font-size: 25px;
+    }
+
+    .acercade .cta-button {
+        font-size: 25px; 
+    }
+
+        
+    .informacion .texto-informacion h2 {
+        font-size: 35px;
+    }
+    
+    .informacion .texto-informacion p {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: -40px;
+    }
+
+    .titulo-form {
+        font-size: 25px;
+    }
+
+    .container-formulario .form {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .slogan p {
+        font-size: 65px;
+    }
+
+    .servicios h2 {
+        font-size: 35px;
+    }
+
+    .acercade h2 {
+        font-size: 35px;
+    }
+    
+    .acercade p {
+        font-size: 20px;
+    }
+
+    .acercade .cta-button {
+        font-size: 23px; 
+    }
+
+    .informacion .texto-informacion h2 {
+        font-size: 32px;
+    }
+    
+    .informacion .texto-informacion p {
+        font-size: 18px;
+        line-height: 40px;
+        margin-bottom: -40px;
+    }
+    
+    .texto-informacion .cta-button {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+    .slogan p {
+        font-size: 60px;
+    }
+
+    .servicios h2 {
+        font-size: 32px;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 33px;
+    }
+
+    .solucion .solucion-info p {
+        font-size: 28px;
+    }
+
+
+    .informacion .texto-informacion h2 {
+        font-size: 26px;
+    }
+
+    .informacion .texto-informacion p {
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: -40px;
+    }
+
+    .titulo-form {
+        font-size: 21px;
+    }
+
+    .container-formulario .form {
+        font-size: 20px;
+    }
+
+    .footer {
+        font-size: 15px;
+    }
+
+    .footer .iconos {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+   
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+        
+    }
+
+    .logo {
+        z-index: 100;
+        border-radius: 20px;
+    }
+
+    .abrir-menu {
+        display: block;
+        margin-right: 20px;
+        color: #fff;
+    }
+
+    .cerrar-menu {
+        font-size: 30px;
+        color: #fff;
+        margin-top: 270px;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: -0;
+        background-color: #092552;
+        padding: 20px;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+
+   
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        background-color: #fff;
+        border-radius: 20px;
+        flex-direction: column;
+        align-items: end;
+        line-height: 50px;
+        padding: 20px;
+        margin-top: 20px;
+    
+    }
+
+    .nav-list a {
+        font-size: 28px;
+        color: #fff;
+        color: #092552;
+    }
+
+
+    
+
+   .slogan p {
+    font-size: 50px;
+    }
+
+    .servicios h2 {
+        font-size: 28px;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 20px;
+    }
+
+    .solucion .solucion-info p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .acercade h2 {
+        font-size: 20px;
+    }
+    
+    .acercade p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .acercade .cta-button {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .informacion {
+
+        flex-direction: column;
+        align-items: center;
+    }
+    
+   
+    .informacion .texto-informacion {
+        width: 100%;
+    }
+
+    .informacion .texto-informacion h2 {
+        display: inline-block;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .informacion .texto-informacion p {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: -40px;
+    }
+
+    .texto-informacion .cta-button {
+        font-size: 20px;
+    }
+
+
+    .titulo-form {
+        font-size: 18px;
+    }
+
+    .container-formulario .form {
+        font-size: 17px;
+    }
+
+    .container-formulario .form {
+        width: 100%;
+    }
+
+    .form .formulario {
+        width: 90%;
+    }
+
+    .container-formulario .form .contenedor-inputs input[type="name"],
+    .container-formulario .form .contenedor-inputs input[type="email"],
+    .container-formulario .form .contenedor-inputs textarea {
+        margin-bottom: 10px;
+    }
+    
+    .footer {
+    font-size: 12px;
+    text-align: center;
+    }
+
+    .footer a {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /* .abrir-menu {
+        display: block;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    .container-formulario .form {
+        width: 100%;
+    } */
+}

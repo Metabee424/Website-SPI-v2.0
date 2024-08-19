@@ -1,0 +1,39 @@
+.acercade {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30px;
+    line-height: 60px;
+    background-color:#fabc05;
+    color: #092552;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.acercade h2 {
+    display: inline-block;
+}
+
+.acercade p {
+    display: inline-block;
+}
+
+.acercade .cta-button {
+    display: flex;
+    width: 200px;
+    text-decoration: none;
+    background-color: #ea4235;
+    border-radius: 20px;
+    color: #fff;
+    justify-content: center;
+    margin-top: 60px;
+    border: 2px solid #fabc05;
+    
+}
+
+.acercade .cta-button:hover {
+    background-color: #fff;
+    color: #ea4235;
+    border: 2px solid #ea4235;
+}
+

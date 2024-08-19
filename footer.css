@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #092552;
+    height: 200px;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.footer .iconos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+
+
+.footer .iconos i {
+    color: #fff;
+    margin: 30px 30px 30px 30px;
+}
